@@ -83,13 +83,14 @@
 
 <meta name="description" content="一个网络安全菜鸟的独白">
 <meta property="og:type" content="website">
-<meta property="og:title" content="null-blog">
-<meta property="og:url" content="http://www.iamnull.top/tags/hexo/index.html">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://www.iamnull.top/about/index.html">
 <meta property="og:site_name" content="null-blog">
 <meta property="og:description" content="一个网络安全菜鸟的独白">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-07-28T03:53:15.318Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="null-blog">
+<meta name="twitter:title" content="about">
 <meta name="twitter:description" content="一个网络安全菜鸟的独白">
 
 
@@ -120,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="http://www.iamnull.top/tags/hexo/">
+  <link rel="canonical" href="http://www.iamnull.top/about/">
 
 
 
@@ -142,7 +143,7 @@
     }
 </style>
 
-  <title>标签: hexo | null-blog</title>
+  <title>about | null-blog</title>
   
 
 
@@ -161,7 +162,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -307,52 +308,36 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>hexo<small>标签</small>
-        </h1>
-      </div>
+	<h1 class="post-title" itemprop="name headline">about</h1>
+
+
+
+</header>
 
       
+      
+      
+      <div class="post-body">
         
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
         
-            <a class="post-title-link" href="/stury/2019/07/28/stury-test.html" itemprop="url">
-              
-                <span itemprop="name">stury-test</span>
-              
-            </a>
+          
         
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-28T00:59:09+08:00" content="2019-07-28">
-          07-28
-        </time>
       </div>
-
-    </header>
-  </article>
-
-
+      
+      
       
     </div>
-
+    
+    
+    
   </div>
-  
-  
-  
-
-  
 
 
           </div>
@@ -360,6 +345,17 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -593,6 +589,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -639,6 +639,30 @@
 
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'nullnull1604',
+            repo: 'blog_comments',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '126a455b85737e8b35ee179ca71867c84cdcee65',
+            
+                client_id: '5aeccdfbeeae55e528dc'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 
