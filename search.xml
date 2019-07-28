@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Funcategorized%2F2019%2F07%2F28%2Fhello-world.html</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[stury-test]]></title>
     <url>%2Fstury%2F2019%2F07%2F28%2Fstury-test.html</url>
     <content type="text"><![CDATA[Hello,This is The first blog,这是我的第一篇博客 这里是点击阅读全文才能看见的东西 字数统计:WordCount阅读时长预计:Min2Read总字数统计: TotalCount]]></content>
