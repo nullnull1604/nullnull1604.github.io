@@ -2,24 +2,16 @@
 <search>
   <entry>
     <title><![CDATA[使用hexo搭建个人blog]]></title>
-    <url>%2Funcategorized%2F2019%2F07%2F28%2F%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html</url>
+    <url>%2Fother%2Fhexo%2F2019%2F07%2F28%2F%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html</url>
     <content type="text"><![CDATA[这里讲述了一个小白折腾hexo的坎坷经历 hexo环境搭建到放弃因为工作和生活的需要，我使用的是arch linux系列中的manjaro操作系统，本以为搭建hexo环境会很简单，但是现实给了我一耳光(后来的事实证明是因为我菜，manjaro安装hexo的确简单，但是也有坑)，我曾经一度放弃hexo就是因为我连环境搭建的关卡都过不去 nodejs安装网上基本都会告诉你，安装hexo需要nodejs环境，但是nodejs环境怎么搭建？ windows: 直接下载安装包安装，同样如果可以建议使用nvm安装linux: 建议使用nvm安装 nvm:nodejs环境管理工具，相当于python的pyenv在照着网上的各种一家抄的博客折腾一遍之后，我才反映过来，我用的是manjaro啊，我为啥不yay一手呢？ 事实证明，manjaro的yay很强大，安装nvm是吧？ yay -s nvm换一种，安装hexo是吧？ yay -s hexo生活就是如此轻松简单。 当然，这里推荐的是使用nvm，这对于后面的多pc同步有好处 使用nvm安装指定版本的node nvm install 11 # 具体更多的nvm操作请参考官方文档hexo安装node环境搭建完毕后，剩下的就简单多了 使用npm安装hexo在所有的平台都是一样的 npm install -g hexo-cli # 网上说可能会因为权限问题安装失败 npm install hexo-server --save # 网上的指示还有一些别的插件，但是我没单独装过所以不知道有啥用 # 至于我为什么没有单独装，因为我是用的下面的命令 npm install hexo # 反正这样安装正常的功能都能用hexo使用初始化hexo# 首先你需要cd进入到blog文件夹 hexo init # hexo会在目标文件夹建立网站所需要的所有文件 hexo install # 安装依赖包本地启动服务# 我们会对自己的各种配置文件，模板文件进行修改，这时候hexo启动一个本地服务就可以很方便进行调试 hexo g # 等同于hexo generate，生成静态文件 hexo s # 等同于hexo server，在本地服务器运行 # 打开浏览器访问 http://localhost:4000/ 就看以看见自己的blog了新建文章与页面hexo new &quot;title&quot; # 在 ./source/_posts/title.md 生成新的文章文件 hexo new page &quot;title&quot; # 生成新的页面，比如生成一个about页面生成的文章或者页面的模板放在 ./scaffolds/ 文件夹当中，文章对应的是post.md,页面对应的是page.md,草稿对应的是draft.md 编辑文章打开新建的文章./source/_posts/title.md --- title: 标题 date: 文章自动生成的时间 categories: 文章的分类目录，多个可以使用 `无序列表` tages: 文章的标签 --- # 这里开始输入你的正文，会在首页中显示出来 &lt;!--more--&gt; # moren 这里也是正文，这里的正文是在首页不会显示的，只有点击“阅读全文”才能看见hexo的命令总结hexo init [folder] # 初始化文件夹为hexo目录 hexo new [layout] &lt;title&gt; # 新建一篇文章. 如果没有设置 layout 的话, 默认使用 _config.yml 中的 default_layout 参数代替. 如果标题包含空格的话, 请使用引号括起来 hexo version # 查看版本 hexo clean # 清除缓存文件(db.json)和已经生成的静态文件(public) hexo g # 生成静态文件(一般每次发布都会先清理一遍然后重新发布) hexo s # 启动本地服务器，本地预览 hexo d # 部署到指定服务器Hexo的美化+插件功能此处暂且略过，慢慢添加 Hexo多PC同步无非是把hexo的源文件上传到github同步而已，只不过中间有些需要注意的地方 .gitignore忽略编辑.gitignore文件，声明不被git记录的文件，建议忽略的内容如下 .DS_Store Thumbs.db db.json *.log node_modules/ public/ .deploy*/public内的文件可以根据source文件夹内容自动生成，, 不需要备份. 其他日志、压缩、数据库等文件也都是调试等使用, 也不需要备份. git操作初始化仓库 git init git remote add origin &lt;server&gt;同步 git add . git commit -m &quot;&quot; git push -u origin masternvm这里就是有可能坑的地方，如果你的node版本不同的化，可能有的插件不能使用，所以建议使用nvm下载相同版本的node使用hexo]]></content>
+      <categories>
+        <category>other</category>
+        <category>hexo</category>
+      </categories>
       <tags>
         <tag>hexo</tag>
         <tag>nodejs</tag>
         <tag>other</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[stury-test]]></title>
-    <url>%2Fstury%2F2019%2F07%2F28%2Fstury-test.html</url>
-    <content type="text"><![CDATA[Hello,This is The first blog,这是我的第一篇博客 这里是点击阅读全文才能看见的东西 字数统计:WordCount阅读时长预计:Min2Read总字数统计: TotalCount]]></content>
-      <categories>
-        <category>stury</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>hello</tag>
       </tags>
   </entry>
 </search>

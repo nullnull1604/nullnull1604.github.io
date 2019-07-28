@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.iamnull.top/"/>
-  <updated>2019-07-28T07:43:37.524Z</updated>
+  <updated>2019-07-28T07:51:57.636Z</updated>
   <id>http://www.iamnull.top/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>使用hexo搭建个人blog</title>
-    <link href="http://www.iamnull.top/uncategorized/2019/07/28/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html"/>
-    <id>http://www.iamnull.top/uncategorized/2019/07/28/使用hexo搭建个人blog.html</id>
+    <link href="http://www.iamnull.top/other/hexo/2019/07/28/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html"/>
+    <id>http://www.iamnull.top/other/hexo/2019/07/28/使用hexo搭建个人blog.html</id>
     <published>2019-07-28T05:39:36.000Z</published>
-    <updated>2019-07-28T07:43:37.524Z</updated>
+    <updated>2019-07-28T07:51:57.636Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>这里讲述了一个小白折腾hexo的坎坷经历</p></blockquote><a id="more"></a><h1 id="hexo环境搭建到放弃"><a href="#hexo环境搭建到放弃" class="headerlink" title="hexo环境搭建到放弃"></a>hexo环境搭建到放弃</h1><p>因为工作和生活的需要，我使用的是<code>arch linux</code>系列中的<code>manjaro</code>操作系统，本以为搭建hexo环境会很简单，但是现实给了我一耳光(后来的事实证明是因为我菜，manjaro安装hexo的确简单，但是也有坑)，我曾经一度放弃hexo就是因为我连环境搭建的关卡都过不去</p><h2 id="nodejs安装"><a href="#nodejs安装" class="headerlink" title="nodejs安装"></a>nodejs安装</h2><p>网上基本都会告诉你，安装hexo需要nodejs环境，但是nodejs环境怎么搭建？</p><p>windows:</p><pre><code>直接下载安装包安装，同样如果可以建议使用nvm安装</code></pre><p>linux:</p><pre><code>建议使用nvm安装nvm:nodejs环境管理工具，相当于python的pyenv</code></pre><p>在照着网上的各种一家抄的博客折腾一遍之后，我才反映过来，我用的是<code>manjaro</code>啊，我为啥不<code>yay</code>一手呢？</p><p>事实证明，<code>manjaro</code>的<code>yay</code>很强大，安装nvm是吧？</p><pre><code>yay -s nvm</code></pre><p>换一种，安装hexo是吧？</p><pre><code>yay -s hexo</code></pre><p>生活就是如此轻松简单。</p><p>当然，这里推荐的是使用nvm，这对于后面的多pc同步有好处</p><p>使用nvm安装指定版本的node</p><pre><code>nvm install 11 # 具体更多的nvm操作请参考官方文档</code></pre><h2 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h2><p>node环境搭建完毕后，剩下的就简单多了</p><p>使用<code>npm</code>安装<code>hexo</code>在所有的平台都是一样的</p><pre><code>npm install -g hexo-cli # 网上说可能会因为权限问题安装失败npm install hexo-server --save# 网上的指示还有一些别的插件，但是我没单独装过所以不知道有啥用# 至于我为什么没有单独装，因为我是用的下面的命令npm install hexo# 反正这样安装正常的功能都能用</code></pre><h2 id="hexo使用"><a href="#hexo使用" class="headerlink" title="hexo使用"></a>hexo使用</h2><h3 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h3><pre><code># 首先你需要cd进入到blog文件夹hexo init # hexo会在目标文件夹建立网站所需要的所有文件hexo install # 安装依赖包</code></pre><h3 id="本地启动服务"><a href="#本地启动服务" class="headerlink" title="本地启动服务"></a>本地启动服务</h3><pre><code># 我们会对自己的各种配置文件，模板文件进行修改，这时候hexo启动一个本地服务就可以很方便进行调试hexo g # 等同于hexo generate，生成静态文件hexo s # 等同于hexo server，在本地服务器运行# 打开浏览器访问 http://localhost:4000/ 就看以看见自己的blog了</code></pre><h3 id="新建文章与页面"><a href="#新建文章与页面" class="headerlink" title="新建文章与页面"></a>新建文章与页面</h3><pre><code>hexo new &quot;title&quot; # 在 ./source/_posts/title.md 生成新的文章文件hexo new page &quot;title&quot; # 生成新的页面，比如生成一个about页面</code></pre><p>生成的文章或者页面的模板放在 <code>./scaffolds/</code> 文件夹当中，文章对应的是<code>post.md</code>,页面对应的是<code>page.md</code>,草稿对应的是<code>draft.md</code></p><h3 id="编辑文章"><a href="#编辑文章" class="headerlink" title="编辑文章"></a>编辑文章</h3><p>打开新建的文章<code>./source/_posts/title.md</code></p><pre><code>---title: 标题date: 文章自动生成的时间categories: 文章的分类目录，多个可以使用 `无序列表`tages: 文章的标签---# 这里开始输入你的正文，会在首页中显示出来&lt;!--more--&gt;# moren 这里也是正文，这里的正文是在首页不会显示的，只有点击“阅读全文”才能看见</code></pre><h3 id="hexo的命令总结"><a href="#hexo的命令总结" class="headerlink" title="hexo的命令总结"></a>hexo的命令总结</h3><pre><code>hexo init [folder] # 初始化文件夹为hexo目录hexo new [layout] &lt;title&gt; # 新建一篇文章. 如果没有设置 layout 的话, 默认使用 _config.yml 中的 default_layout 参数代替. 如果标题包含空格的话, 请使用引号括起来hexo version # 查看版本hexo clean # 清除缓存文件(db.json)和已经生成的静态文件(public)hexo g # 生成静态文件(一般每次发布都会先清理一遍然后重新发布)hexo s # 启动本地服务器，本地预览hexo d # 部署到指定服务器</code></pre><h1 id="Hexo的美化-插件功能"><a href="#Hexo的美化-插件功能" class="headerlink" title="Hexo的美化+插件功能"></a>Hexo的美化+插件功能</h1><p>此处暂且略过，慢慢添加</p><h1 id="Hexo多PC同步"><a href="#Hexo多PC同步" class="headerlink" title="Hexo多PC同步"></a>Hexo多PC同步</h1><p>无非是把hexo的源文件上传到github同步而已，只不过中间有些需要注意的地方</p><h2 id="gitignore忽略"><a href="#gitignore忽略" class="headerlink" title=".gitignore忽略"></a>.gitignore忽略</h2><p>编辑<code>.gitignore</code>文件，声明不被<code>git</code>记录的文件，建议忽略的内容如下</p><pre><code>.DS_Store      Thumbs.db      db.json      *.log      node_modules/      public/      .deploy*/</code></pre><p><code>public</code>内的文件可以根据<code>source</code>文件夹内容自动生成，, 不需要备份. 其他日志、压缩、数据库等文件也都是调试等使用, 也不需要备份.</p><h2 id="git操作"><a href="#git操作" class="headerlink" title="git操作"></a>git操作</h2><p>初始化仓库</p><pre><code>git initgit remote add origin &lt;server&gt;</code></pre><p>同步</p><pre><code>git add .git commit -m &quot;&quot;git push -u origin master</code></pre><h2 id="nvm"><a href="#nvm" class="headerlink" title="nvm"></a>nvm</h2><p>这里就是有可能坑的地方，如果你的node版本不同的化，可能有的插件不能使用，所以建议使用nvm下载相同版本的node使用hexo</p>]]></content>
     
@@ -33,36 +33,16 @@
     
     </summary>
     
+      <category term="other" scheme="http://www.iamnull.top/categories/other/"/>
+    
+      <category term="hexo" scheme="http://www.iamnull.top/categories/other/hexo/"/>
+    
     
       <category term="hexo" scheme="http://www.iamnull.top/tags/hexo/"/>
     
       <category term="nodejs" scheme="http://www.iamnull.top/tags/nodejs/"/>
     
       <category term="other" scheme="http://www.iamnull.top/tags/other/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>stury-test</title>
-    <link href="http://www.iamnull.top/stury/2019/07/28/stury-test.html"/>
-    <id>http://www.iamnull.top/stury/2019/07/28/stury-test.html</id>
-    <published>2019-07-27T16:59:09.000Z</published>
-    <updated>2019-07-28T03:16:26.282Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hello,This is The first blog,这是我的第一篇博客</p><a id="more"></a><p>这里是点击阅读全文才能看见的东西</p><p>字数统计:WordCount<br>阅读时长预计:Min2Read<br>总字数统计: TotalCount</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Hello,This is The first blog,这是我的第一篇博客&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="stury" scheme="http://www.iamnull.top/categories/stury/"/>
-    
-    
-      <category term="hexo" scheme="http://www.iamnull.top/tags/hexo/"/>
-    
-      <category term="hello" scheme="http://www.iamnull.top/tags/hello/"/>
     
   </entry>
   
