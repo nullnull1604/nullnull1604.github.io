@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="网络安全,windows,认证机制,知识点,">
 
 
 
@@ -81,16 +81,18 @@
 
 
 
-<meta name="description" content="一个网络安全菜鸟的独白">
-<meta property="og:type" content="website">
-<meta property="og:title" content="null-blog">
-<meta property="og:url" content="http://www.iamnull.top/index.html">
+<meta name="description" content="关于windows中认证机制的一个学习">
+<meta name="keywords" content="网络安全,windows,认证机制,知识点">
+<meta property="og:type" content="article">
+<meta property="og:title" content="windows的认证机制">
+<meta property="og:url" content="http://www.iamnull.top/网络安全/知识点/2019/07/29/windows的认证机制.html">
 <meta property="og:site_name" content="null-blog">
-<meta property="og:description" content="一个网络安全菜鸟的独白">
+<meta property="og:description" content="关于windows中认证机制的一个学习">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-07-29T16:11:25.708Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="null-blog">
-<meta name="twitter:description" content="一个网络安全菜鸟的独白">
+<meta name="twitter:title" content="windows的认证机制">
+<meta name="twitter:description" content="关于windows中认证机制的一个学习">
 
 
 
@@ -120,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://www.iamnull.top/">
+  <link rel="canonical" href="http://www.iamnull.top/网络安全/知识点/2019/07/29/windows的认证机制.html">
 
 
 
@@ -144,8 +146,8 @@
 
 <script>
     (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
+        if('123456'){
+            if (prompt('请输入文章密码') !== '123456'){
                 alert('密码错误！');
                 history.back();
             }
@@ -154,7 +156,7 @@
 </script>
 
 
-  <title>null-blog</title>
+  <title>windows的认证机制 | null-blog</title>
   
 
 
@@ -173,8 +175,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -319,207 +320,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.iamnull.top/日常/Linux/2019/08/03/Linux工具.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="nullnull">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="null-blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/日常/Linux/2019/08/03/Linux工具.html" itemprop="url">Linux工具</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-03T10:08:20+08:00">
-                2019-08-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/日常/" itemprop="url" rel="index">
-                    <span itemprop="name">日常</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/日常/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  427 字
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1 分钟
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Linux好用的一些工具，恩，我自己比较喜欢的,能够极大的提高我的工作效率的</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/日常/Linux/2019/08/03/Linux工具.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-<div>
-      
-</div>
-
-
-<div>
-  
-</div>
-
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -549,9 +352,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/网络安全/知识点/2019/07/29/windows的认证机制.html" itemprop="url">windows的认证机制</a></h1>
+          <h1 class="post-title" itemprop="name headline">windows的认证机制</h1>
         
 
         <div class="post-meta">
@@ -610,6 +411,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/网络安全/知识点/2019/07/29/windows的认证机制.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/网络安全/知识点/2019/07/29/windows的认证机制.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -665,416 +476,147 @@
       
 
       
-        
-          <p>关于windows中认证机制的一个学习</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/网络安全/知识点/2019/07/29/windows的认证机制.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-<div>
-      
-</div>
-
-
-<div>
-  
-</div>
-
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.iamnull.top/网络安全/应急响应/2019/07/28/应急响应-手工排查.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="nullnull">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="null-blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/网络安全/应急响应/2019/07/28/应急响应-手工排查.html" itemprop="url">应急响应-手工排查</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-28T16:55:03+08:00">
-                2019-07-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/网络安全/" itemprop="url" rel="index">
-                    <span itemprop="name">网络安全</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/网络安全/应急响应/" itemprop="url" rel="index">
-                    <span itemprop="name">应急响应</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  2.7k 字
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  10 分钟
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>最近一直在网上浏览各种应急响应的手段，在这里进行一个总和</p>
+        <p>关于windows中认证机制的一个学习</p>
+<a id="more"></a>
+<h1 id="本地认证"><a href="#本地认证" class="headerlink" title="本地认证"></a>本地认证</h1><p>在本地登录windows的情况下，操作系统会使用用户输入的密码作为凭证去与系统中的密码进行校验</p>
+<p>此时系统的密码存储在一下的位置：</p>
+<ul>
+<li>%SystemRoot%/system32/config/sam</li>
+</ul>
+<p>当我们登录系统的时候，系统会自动的读取SAM文件中存储的密码并与我们输入的密码进行比对，从而进行认证</p>
+<p>这个SAM文件中保留了计算机本地所有用户的凭证信息，可以理解为是一个简单的数据库</p>
+<p><strong>Windows本身不保存明文密码，只保留密码的<code>Hash</code></strong></p>
+<blockquote>
+<p>Hash,散列/哈希，就是把任意长度的输入(又叫做预映射 pre-image)通过散列算法变换成固定长度的输出，该输入就是散列值。这种转换是一种压缩映射，散列值的空间通常远远小于输入的空间，不同的输入可能会散列成相同的输出，所以不可能从散列值来确定唯一的输入值。</p>
 </blockquote>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/网络安全/应急响应/2019/07/28/应急响应-手工排查.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-<div>
-      
-</div>
-
-
-<div>
-  
-</div>
-
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.iamnull.top/日常/hexo/2019/07/28/使用hexo搭建个人blog.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="nullnull">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="null-blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/日常/hexo/2019/07/28/使用hexo搭建个人blog.html" itemprop="url">使用hexo搭建个人blog</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-28T13:39:36+08:00">
-                2019-07-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/日常/" itemprop="url" rel="index">
-                    <span itemprop="name">日常</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/日常/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1.2k 字
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  4 分钟
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>这里讲述了一个小白折腾hexo的坎坷经历</p>
+<h2 id="NTLM-Hash与HTLM"><a href="#NTLM-Hash与HTLM" class="headerlink" title="NTLM Hash与HTLM"></a>NTLM Hash与HTLM</h2><p>在windows中，密码Hash被称之为NTLM(NT LAN Manager) Hash</p>
+<p>这个NTLM是一种网络认证协议，与NTLM Hash的关系是： NTLM网络认证协议是以NTLM Hash作为根凭证进行认证的协议，也就是说，NTLM与 NTLM Hash互相对应</p>
+<p>在本地认证的过程中，就是将用户的输入的密码转换为 <code>NTLM Hash</code> 与 <code>SAM</code>中的 <code>HTLM Hash</code>进行比较</p>
+<h2 id="HTLM-Hash的产生"><a href="#HTLM-Hash的产生" class="headerlink" title="HTLM Hash的产生"></a>HTLM Hash的产生</h2><p>操作系统会将输入的密码转换为十六进制，经过Unicode转换后，再调用MD4加密算法加密，这个结果的十六进制就是NTLM Hash</p>
+<pre><code>密码 -&gt; hex(十六进制编码) = 十六进制数
+十六进制数 -&gt; Unicode = Unicode字符串
+Unicode字符串 -&gt; MD4 = MD4加密值
+MD4加密值 -&gt; hex = HTLM Hash</code></pre><h2 id="本地认证的流程"><a href="#本地认证的流程" class="headerlink" title="本地认证的流程"></a>本地认证的流程</h2><blockquote>
+<p>winlogon.exe -&gt; 接受用户输入 -&gt; lsass.exe -&gt; 认证</p>
 </blockquote>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/日常/hexo/2019/07/28/使用hexo搭建个人blog.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+<p>首先，用户注销、重启、锁屏后，操作系统会让winlogon显示登录界面，也就是输入框，接收输入后，将密码交给lsass进程，这个进程中会存一份明文密码，将明文密码加密成NTLM Hash，对SAM数据库比较认证。</p>
+<ul>
+<li>windows Logon Process(即 winlogon.exe),是Windows NT用户登录程序，用于管理用户登录和退出</li>
+<li>LSASS用于微软系统的安全机制。用于本地安全和登录策略</li>
+</ul>
+<h2 id="LM-Hash"><a href="#LM-Hash" class="headerlink" title="LM Hash"></a>LM Hash</h2><p>在NTLM Hash问世之前，它的前身就是 LM Hash ，他们的认证机制相同，但是加密算法不同，LM Hash已经被淘汰了</p>
+<h1 id="网络认证"><a href="#网络认证" class="headerlink" title="网络认证"></a>网络认证</h1><p>在内网渗透的过程中，经常遇到工作组环境，而工作组环境是一个逻辑 上的网络环境(工作区)，隶属于工作组的机器之间无法互相建 立一个完美的信任机制，只能点对点，是比较落后的认证方式， 没有信托机构。</p>
+<p>假设A主机与B主机属于同一个工作组环境，A想访问B主机上的资料，需要将一个存在于B主机上的账户凭证发送至B主机，经过认证才能够访问B主机上的资源。</p>
+<p>这是我们接触比较多的SMB共享文件的案例，SMB的默认端口是445。</p>
+<p>早期SMB协议在网络上传输明文口令。后来出现 LAN Manager Challenge/Response 验证机制，简称LM，它是如此简单以至很容易就被破解，现在又有了NTLM以及Kerberos。</p>
+<h2 id="NTLM协议"><a href="#NTLM协议" class="headerlink" title="NTLM协议"></a>NTLM协议</h2><p>NTML是一种网络认证协议，他是基于 挑战(Chalenge)/响应(Response)/认证机制的一种认证模式</p>
+<h3 id="HTLM协议认证"><a href="#HTLM协议认证" class="headerlink" title="HTLM协议认证"></a>HTLM协议认证</h3><p>HTLM协议的认证过程分为三步：</p>
+<ul>
+<li>协商，主要用于确认双方协议版本</li>
+<li>质询，就是挑战(Chalenge)/响应(Response)认证机制起作用的范畴</li>
+<li>验证，验证主要是在质询完成后，验证结果，是认证的最后一步</li>
+</ul>
+<h3 id="质询过程"><a href="#质询过程" class="headerlink" title="质询过程"></a>质询过程</h3><ul>
+<li>客户端项服务器发送用户的信息(用户名)请求</li>
+<li>服务器接受到请求，生成一个16位的随机数，称之为”Challenge”，使用登录用户名对应的HTLM Hash加密 Challenge(16位随机数)，假定生成challenge1，同时，生成Chanllenge1后，将Challenge(16位随机数)发送给客户端。</li>
+<li>客户端接收到Challenge后，使用将要登录账户对应的NTLM Hash加码Challenge生成的Response，然后将Response发送至服务器</li>
+</ul>
+<h3 id="认证过程解释"><a href="#认证过程解释" class="headerlink" title="认证过程解释"></a>认证过程解释</h3><ul>
+<li><ol>
+<li>首先用户在客户端输入username，password，domain，然后客户端会先将用户输入的password进行hash计算并保存在本地</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>客户端将username明文传输到域控机</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>然后域控会随机生成16字节的challenge挑战码，返回给客户端</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>客户端接收到challenge之后，会用之前password的hash进行加密(成为Response)，和challenge，username一起发送给服务器</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>服务端将客户端发来的信息转发给域控</li>
+</ol>
+</li>
+<li><ol start="6">
+<li>域控在接收到服务端发来的response，challenge，username，会拿着username在自己的活动目录数据库(ntds.dit)中查询对应的password hash，并对challenage进行一次加密，如果和用户发来的response相同则身份验证成功，否则失败</li>
+</ol>
+</li>
+</ul>
+<h2 id="Kerberos域认证"><a href="#Kerberos域认证" class="headerlink" title="Kerberos域认证"></a>Kerberos域认证</h2><p>Active Directory(活动目录)概念： windows提供了企业管理资产，服务，网络对象进行组织化的管理，这非常符合企业架构的管理模式。而承载这些管理机制的就是活动目录服务。如果要搭建一个域，就需要安装活动目录服务。</p>
+<p>活动目录服务以域名来划分域的边界，域外就不属于管理范围，也就是说，一个域对应一个域名，域之间也可以相互信任。</p>
+<ul>
+<li>Active Directory存储了有关网络对象的信息，并且让管理员和用户能够轻松的查找和使用这些信息。Active Directory使用一种结构化的数据存储方式，并以此为基础对目录信息进行合乎逻辑的分层组织。</li>
+<li>网络对象分为：用户，用户组，计算机，域，组织单位以及安全策略等等</li>
+</ul>
+<h3 id="Active-Driectory-活动目录-功能"><a href="#Active-Driectory-活动目录-功能" class="headerlink" title="Active Driectory(活动目录)功能"></a>Active Driectory(活动目录)功能</h3><ul>
+<li>服务器以及客户端计算机管理：管理服务器以及客户端计算机账户，所有服务器以及客户端计算机加入域管理并实施组策略</li>
+<li>用户服务： 管理用户域账户，用户信息，企业通讯录(与电子邮件集成),用户组管理，用户身份认证，用户授权管理，按省实施组管理策略</li>
+<li>资源管理： 管理打印机，文件共享服务等网络资源</li>
+<li>桌面配置： 系统管理员可以集中配置各种桌面配置策略，如：用户使用域中资源权限限制，界面功能的限制，应用程序执行特征限制，网络连接限制，安全配置限制等</li>
+<li>应用系统支撑： 支持财务，人事，电子邮件，企业信息门户，办公自动化，补丁管理，防病毒系统等各种应用系统</li>
+</ul>
+<p>在域中，网络对象可以互相访问，但是在真实情况中，需要对某些部门的计算机进行限制，例如：销售部门不能访问技术部门的服务器，<strong>这时候就需要使用Kerberos认证来验证网络对象间的权限</strong></p>
+<h3 id="域认证体系-Kerberos"><a href="#域认证体系-Kerberos" class="headerlink" title="域认证体系 - Kerberos"></a>域认证体系 - Kerberos</h3><p>Kerberos 是一种网络认证协议，其设计目标是通过密钥系统为客 户机 / 服务器应用程序提供强大的认证服务。该认证过程的实现不 依赖于主机操作系统的认证，无需基于主机地址的信任，不要求 网络上所有主机的物理安全，并假定网络上传送的数据包可以被 任意地读取、修改和插入数据。在以上情况下， Kerberos 作为一 种可信任的第三方认证服务，是通过传统的密码技术(如:共享 密钥)执行认证服务的。</p>
+<h3 id="域认证参与的角色"><a href="#域认证参与的角色" class="headerlink" title="域认证参与的角色"></a>域认证参与的角色</h3><ul>
+<li>Client</li>
+<li>Server</li>
+<li>KDC(Key Distribution Center) = DC(Domain Controller)</li>
+</ul>
+<p>kerberos认证协议的基础概念：</p>
+<ul>
+<li>票据(Ticket)：是网络对象互相访问的凭证</li>
+<li>TGT(Ticket Granting Ticket)： 入场券，通过入场券能够获得票据，是一种临时凭证的存在</li>
+</ul>
+<p>KDC负责管理票据，认证票据，分发票据，但是KDC不是一个独立的服务，由一下的服务组成：</p>
+<ul>
+<li>Authentication Service ： 为client生成 TGT 的服务</li>
+<li>Ticket Granting Service ： 为client生成某个服务的 ticket</li>
+</ul>
+<p>另外还需要一个类似于本机的SAM的数据库： AD(account database)，存储所有client的白名单，只有存在于白名单的client才能顺利申请到 TGT。</p>
+<p>从物理层面上看：AD和KDC均为域控制器（Domain Controller）</p>
+<h3 id="域认证的简单流程"><a href="#域认证的简单流程" class="headerlink" title="域认证的简单流程"></a>域认证的简单流程</h3><ul>
+<li>client项kerberos服务请求，请求获取访问server的权限，kerberos得到这个消息，首先判断client是否是可信赖的，也就是白名单黑名单的说法。这就是AS服务器完成的工作，通过在AD中存储黑名单和白名单来区分client。成功后，AS返回 TGT 给client</li>
+<li>client得到TGT后，继续向kerberos请求，希望获取访问server的权限。kerberos又得到这个消息，这时候通过client消息中的TGT，判断出client拥有这个权限，给client访问server的权限的ticket</li>
+<li>client得到ticket后，终于可以成功访问server。这个ticket只是针对这个server，其他server需要向TGS申请</li>
+</ul>
+<h3 id="域认证"><a href="#域认证" class="headerlink" title="域认证"></a>域认证</h3><h4 id="Session-key-与-Ticket-Granting-Ticket"><a href="#Session-key-与-Ticket-Granting-Ticket" class="headerlink" title="Session key 与 Ticket Granting Ticket"></a>Session key 与 Ticket Granting Ticket</h4><p>首先，客户端需要发送自己的身份信息到KDC，身份信息中包含有用户名，KDC根据用户名在AD中寻找是否在白名单中，然后根据用户名提取到对应的HTLM Hash</p>
+<p>KDC此时生成一个随机的字符串，叫做 Session Key，使用用户名对应的 NTLM Hash加密 Session Key，作为AS数据，使用KDC中某个用户(krbtgt)的HTML Hash 加密Session Key和客户端信息，生成TGT</p>
+<ul>
+<li>Session Key 用于客户端向TGS服务通信</li>
+<li>域内所有网络对象的凭证都在AD中保存</li>
+</ul>
+<h4 id="Session-Key-与-Ticket"><a href="#Session-Key-与-Ticket" class="headerlink" title="Session Key 与 Ticket"></a>Session Key 与 Ticket</h4><p>第二步客户端需要根据TGT与第一步中使用自己NTLM Hash 解密出来的Session Key加密的客户端信息和时间戳。</p>
+<p>KDC接到TGT与其他的内容后，会首先解密TGT，只有KDC可以解密TGT，从TGT中提取到Session Key，再使用Session Key解密其他内容，解密出来的内容同TGT中的信息进行校验来确认客户端是否受信。</p>
+<p>通过验证后，会生成一个新的Session Key，我们称之为Server Session Key ，这个Server Session Key主要用于和服务器进行通信，同时还会生成一个Ticket，也就是最后的票据了</p>
+<pre><code>Ticket = Server Hash( # 这个hash是在AD中服务器计算机的NTLM Hash
+    Server Session Key
+    client info:Domain name/client
+    Ent Time
+)</code></pre><h4 id="Server-Session-Key-与-Ticket"><a href="#Server-Session-Key-与-Ticket" class="headerlink" title="Server Session Key 与 Ticket"></a>Server Session Key 与 Ticket</h4><p>在第三步中，客户端向服务端请求，需要提供Ticket，Server Session Key加密的客户端信息和时间戳。</p>
+<ul>
+<li>Ticket 客户端无法解密</li>
+<li>服务器端通过解密Ticket解密Server Session Key</li>
+<li>比较时间时长</li>
+</ul>
+<p>校验通过之后，认证成功，这个票据会一直存在于客户端内存中</p>
+<h3 id="白银票据（Silver-Tickets）"><a href="#白银票据（Silver-Tickets）" class="headerlink" title="白银票据（Silver Tickets）"></a>白银票据（Silver Tickets）</h3><ul>
+<li>不需要与KDC进行交互</li>
+<li>需要目标服务器的HTLM Hash</li>
+</ul>
+<p>Server Session Key在未发送Ticket之前，服务器是不知道Server Session Key是什么，所以，一切都远自于Server Hash</p>
+<p>而我们在第三步中可以从Ticket中发现有Server Hash，也就是说，我们可以伪造一个不经过KDC认证的Ticket</p>
+<h3 id="伪造白银票据（Silver-Tickets）"><a href="#伪造白银票据（Silver-Tickets）" class="headerlink" title="伪造白银票据（Silver Tickets）"></a>伪造白银票据（Silver Tickets）</h3><p>首先需要导出 Server Hash：</p>
+<pre><code>C;\files&gt;mimikatz.exe &quot;privilege::debug&quot; &quot;sekurlsa::logonpasswords&quot; &quot;exit&quot; &gt; log.txt</code></pre><p>伪造票据</p>
+<pre><code>mimikatz &quot;kerberos::golden /domain:&lt;域名&gt; /sid:&lt;域 SID&gt; /target:&lt;目标服务器主机名&gt; /service:&lt;服务类性&gt; /rc4:&lt;NTLM Hash&gt; /user:&lt;用户名&gt; /ptt&quot; exit</code></pre><h3 id="黄金票据伪造"><a href="#黄金票据伪造" class="headerlink" title="黄金票据伪造"></a>黄金票据伪造</h3><p>不懂啊！！！！！</p>
+<blockquote>
+<p><a href="https://www.secpulse.com/archives/94848.html#goComment" target="_blank" rel="noopener">https://www.secpulse.com/archives/94848.html#goComment</a></p>
+</blockquote>
+
       
     </div>
     
@@ -1083,10 +625,20 @@
 
 <div>
       
+        
+
+      
 </div>
 
 
 <div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
   
 </div>
 
@@ -1099,14 +651,46 @@
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/网络安全/" rel="tag"><i class="fa fa-tag"></i> 网络安全</a>
+          
+            <a href="/tags/windows/" rel="tag"><i class="fa fa-tag"></i> windows</a>
+          
+            <a href="/tags/认证机制/" rel="tag"><i class="fa fa-tag"></i> 认证机制</a>
+          
+            <a href="/tags/知识点/" rel="tag"><i class="fa fa-tag"></i> 知识点</a>
+          
+        </div>
       
 
       
+      
+      
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/网络安全/应急响应/2019/07/28/应急响应-手工排查.html" rel="next" title="应急响应-手工排查">
+                <i class="fa fa-chevron-left"></i> 应急响应-手工排查
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/日常/Linux/2019/08/03/Linux工具.html" rel="prev" title="Linux工具">
+                Linux工具 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </div>
@@ -1116,10 +700,45 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <!--MOB SHARE BEGIN-->
+<div class="-hoofoo-share-title">分享到: </div>
+<div class="-hoofoo-share-buttons">
+    <div class="-mob-share-weibo -hoofoo-share-weibo -hoofoo-share-ui-button"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <div class="-mob-share-weixin -hoofoo-share-weixin -hoofoo-share-ui-button"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+    <div class="-mob-share-qq -hoofoo-share-qq -hoofoo-share-ui-button"><i class="fa fa-qq" aria-hidden="true"></i></div>
+    <div class="-mob-share-twitter -hoofoo-share-twitter -hoofoo-share-ui-button"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+    <div class="-hoofoo-share-more -hoofoo-share-ui-button -mob-share-open"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+</div>
+<div class="-mob-share-ui" style="display: none">
+    <ul class="-mob-share-list">
+        <li class="-mob-share-weibo"><p>新浪微博</p></li>
+        <li class="-mob-share-weixin"><p>微信</p></li>
+        <li class="-mob-share-qzone"><p>QQ空间</p></li>
+        <li class="-mob-share-qq"><p>QQ好友</p></li>
+        <li class="-mob-share-tencentweibo"><p>腾讯微博</p></li>
+        <li class="-mob-share-douban"><p>豆瓣</p></li>
+        <li class="-mob-share-youdao"><p>有道云笔记</p></li>
+        <li class="-mob-share-pengyou"><p>朋友网</p></li>
+        <li class="-mob-share-facebook"><p>Facebook</p></li>
+        <li class="-mob-share-twitter"><p>Twitter</p></li>
+        <li class="-mob-share-pocket"><p>Pocket</p></li>
+        <li class="-mob-share-google"><p>Google+</p></li>
+        <li class="-mob-share-tumblr"><p>Tumblr</p></li>
+        <li class="-mob-share-instapaper"><p>Instapaper</p></li>
+        <li class="-mob-share-linkedin"><p>Linkedin</p></li>
+    </ul>
+    <div class="-mob-share-close">取消</div>
+</div>
+<div class="-mob-share-ui-bg"></div>
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=2bda9a2556068"></script>
+<!--MOB SHARE END-->
+
+      
+    </div>
+  </div>
 
 
           </div>
@@ -1127,6 +746,17 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+
+  
+
+
 
         </div>
         
@@ -1149,8 +779,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1233,6 +872,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#本地认证"><span class="nav-number">1.</span> <span class="nav-text">本地认证</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#NTLM-Hash与HTLM"><span class="nav-number">1.1.</span> <span class="nav-text">NTLM Hash与HTLM</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTLM-Hash的产生"><span class="nav-number">1.2.</span> <span class="nav-text">HTLM Hash的产生</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#本地认证的流程"><span class="nav-number">1.3.</span> <span class="nav-text">本地认证的流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LM-Hash"><span class="nav-number">1.4.</span> <span class="nav-text">LM Hash</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#网络认证"><span class="nav-number">2.</span> <span class="nav-text">网络认证</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#NTLM协议"><span class="nav-number">2.1.</span> <span class="nav-text">NTLM协议</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTLM协议认证"><span class="nav-number">2.1.1.</span> <span class="nav-text">HTLM协议认证</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#质询过程"><span class="nav-number">2.1.2.</span> <span class="nav-text">质询过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#认证过程解释"><span class="nav-number">2.1.3.</span> <span class="nav-text">认证过程解释</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Kerberos域认证"><span class="nav-number">2.2.</span> <span class="nav-text">Kerberos域认证</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Active-Driectory-活动目录-功能"><span class="nav-number">2.2.1.</span> <span class="nav-text">Active Driectory(活动目录)功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#域认证体系-Kerberos"><span class="nav-number">2.2.2.</span> <span class="nav-text">域认证体系 - Kerberos</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#域认证参与的角色"><span class="nav-number">2.2.3.</span> <span class="nav-text">域认证参与的角色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#域认证的简单流程"><span class="nav-number">2.2.4.</span> <span class="nav-text">域认证的简单流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#域认证"><span class="nav-number">2.2.5.</span> <span class="nav-text">域认证</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Session-key-与-Ticket-Granting-Ticket"><span class="nav-number">2.2.5.1.</span> <span class="nav-text">Session key 与 Ticket Granting Ticket</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Session-Key-与-Ticket"><span class="nav-number">2.2.5.2.</span> <span class="nav-text">Session Key 与 Ticket</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Server-Session-Key-与-Ticket"><span class="nav-number">2.2.5.3.</span> <span class="nav-text">Server Session Key 与 Ticket</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#白银票据（Silver-Tickets）"><span class="nav-number">2.2.6.</span> <span class="nav-text">白银票据（Silver Tickets）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#伪造白银票据（Silver-Tickets）"><span class="nav-number">2.2.7.</span> <span class="nav-text">伪造白银票据（Silver Tickets）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#黄金票据伪造"><span class="nav-number">2.2.8.</span> <span class="nav-text">黄金票据伪造</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1360,6 +1015,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -1406,6 +1065,30 @@
 
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'nullnull1604',
+            repo: 'blog_comments',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '126a455b85737e8b35ee179ca71867c84cdcee65',
+            
+                client_id: '5aeccdfbeeae55e528dc'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 

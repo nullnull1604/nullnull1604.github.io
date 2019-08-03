@@ -4,6 +4,70 @@
   
     
     <entry>
+      <title>Linux工具</title>
+      <link href="/%E6%97%A5%E5%B8%B8/Linux/2019/08/03/Linux%E5%B7%A5%E5%85%B7.html"/>
+      <url>/%E6%97%A5%E5%B8%B8/Linux/2019/08/03/Linux%E5%B7%A5%E5%85%B7.html</url>
+      
+        <content type="html"><![CDATA[<p>Linux好用的一些工具，恩，我自己比较喜欢的,能够极大的提高我的工作效率的</p><a id="more"></a><h1 id="命令行工具"><a href="#命令行工具" class="headerlink" title="命令行工具"></a>命令行工具</h1><h2 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a>tmux</h2><p>最好用的终端复用器</p><h2 id="ag"><a href="#ag" class="headerlink" title="ag"></a>ag</h2><p>比grep，ack更快的递归搜索文件内容</p><h2 id="tig"><a href="#tig" class="headerlink" title="tig"></a>tig</h2><p>字符模式下交互查看git项目，可以用来代替git命令</p><h2 id="mycli"><a href="#mycli" class="headerlink" title="mycli"></a>mycli</h2><p>mysql的客户端，支持语法高亮，命令补全，Python开发</p><h2 id="jq"><a href="#jq" class="headerlink" title="jq"></a>jq</h2><p>json文件的格式化工具</p><h2 id="shellcheck"><a href="#shellcheck" class="headerlink" title="shellcheck"></a>shellcheck</h2><p>shell脚本的静态检查工具</p><h2 id="mosh"><a href="#mosh" class="headerlink" title="mosh"></a>mosh</h2><p>基于UDP的终端连接，可以代替ssh</p><h2 id="fzf"><a href="#fzf" class="headerlink" title="fzf"></a>fzf</h2><p>命令行下的模糊搜索工具</p><h2 id="htop-glances"><a href="#htop-glances" class="headerlink" title="htop/glances"></a>htop/glances</h2><p>更美观的进程监控工具，用于代替top命令，glances好像要更强大一些</p><h2 id="axel"><a href="#axel" class="headerlink" title="axel"></a>axel</h2><p>多线程的下载工具</p><h2 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h2><p>交互式文件传输，非常适合在多重跳板机下传输文件，不需要一级一级的传输</p><h2 id="cloc"><a href="#cloc" class="headerlink" title="cloc"></a>cloc</h2><p>代码统计工具</p><h2 id="script-scriptreplay"><a href="#script-scriptreplay" class="headerlink" title="script/scriptreplay"></a>script/scriptreplay</h2><p>终端会话录制工具</p><h2 id="lcdiff"><a href="#lcdiff" class="headerlink" title="lcdiff"></a>lcdiff</h2><p>分屏显示diff，用于替换diff</p><h2 id="ranger-mc"><a href="#ranger-mc" class="headerlink" title="ranger/mc"></a>ranger/mc</h2><p>内容预览/浏览工具</p><h2 id="multitail"><a href="#multitail" class="headerlink" title="multitail"></a>multitail</h2><p>更好用的tail -f 工具</p><h2 id="thefuck"><a href="#thefuck" class="headerlink" title="thefuck"></a>thefuck</h2><p>命令行更正工具</p><h2 id="tldr"><a href="#tldr" class="headerlink" title="tldr"></a>tldr</h2><p>too long didn’t read</p><h2 id="figlet"><a href="#figlet" class="headerlink" title="figlet"></a>figlet</h2><p>demo制作工具</p><h2 id="mackup"><a href="#mackup" class="headerlink" title="mackup"></a>mackup</h2><p>应用偏好设置备份和同步工具</p><h2 id="cv"><a href="#cv" class="headerlink" title="cv"></a>cv</h2><p>显示进度条的cp命令，用于替换cp</p><h2 id="wtf"><a href="#wtf" class="headerlink" title="wtf"></a>wtf</h2><p>娱乐小工具，用于显示缩略简写</p><h2 id="reptyr"><a href="#reptyr" class="headerlink" title="reptyr"></a>reptyr</h2><p>重新运行终端的任务</p><h2 id="pm2"><a href="#pm2" class="headerlink" title="pm2"></a>pm2</h2><p>用于在后台运行和管理进程</p><h2 id="httpie"><a href="#httpie" class="headerlink" title="httpie"></a>httpie</h2><p>用于代替的curl的http客户端工具</p><h2 id="transfer-sh"><a href="#transfer-sh" class="headerlink" title="transfer.sh"></a>transfer.sh</h2><p>可以通过简单的命令行来实现文件共享操作</p><h2 id="stegify"><a href="#stegify" class="headerlink" title="stegify"></a>stegify</h2><p>可以将任意文件隐藏在图片中</p><h2 id="spacevim"><a href="#spacevim" class="headerlink" title="spacevim"></a>spacevim</h2><p>莫名的即使感，以前我用的是spacemacs</p><h2 id="aptitude"><a href="#aptitude" class="headerlink" title="aptitude"></a>aptitude</h2><p>用于代替apt的工具</p><h2 id="redshift"><a href="#redshift" class="headerlink" title="redshift"></a>redshift</h2><p>护眼工具</p><h2 id="fx"><a href="#fx" class="headerlink" title="fx"></a>fx</h2><p>可以展开的json格式化工具</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> 日常 </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>windows的认证机制</title>
+      <link href="/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/%E7%9F%A5%E8%AF%86%E7%82%B9/2019/07/29/windows%E7%9A%84%E8%AE%A4%E8%AF%81%E6%9C%BA%E5%88%B6.html"/>
+      <url>/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/%E7%9F%A5%E8%AF%86%E7%82%B9/2019/07/29/windows%E7%9A%84%E8%AE%A4%E8%AF%81%E6%9C%BA%E5%88%B6.html</url>
+      
+        <content type="html"><![CDATA[<p>关于windows中认证机制的一个学习</p><a id="more"></a><h1 id="本地认证"><a href="#本地认证" class="headerlink" title="本地认证"></a>本地认证</h1><p>在本地登录windows的情况下，操作系统会使用用户输入的密码作为凭证去与系统中的密码进行校验</p><p>此时系统的密码存储在一下的位置：</p><ul><li>%SystemRoot%/system32/config/sam</li></ul><p>当我们登录系统的时候，系统会自动的读取SAM文件中存储的密码并与我们输入的密码进行比对，从而进行认证</p><p>这个SAM文件中保留了计算机本地所有用户的凭证信息，可以理解为是一个简单的数据库</p><p><strong>Windows本身不保存明文密码，只保留密码的<code>Hash</code></strong></p><blockquote><p>Hash,散列/哈希，就是把任意长度的输入(又叫做预映射 pre-image)通过散列算法变换成固定长度的输出，该输入就是散列值。这种转换是一种压缩映射，散列值的空间通常远远小于输入的空间，不同的输入可能会散列成相同的输出，所以不可能从散列值来确定唯一的输入值。</p></blockquote><h2 id="NTLM-Hash与HTLM"><a href="#NTLM-Hash与HTLM" class="headerlink" title="NTLM Hash与HTLM"></a>NTLM Hash与HTLM</h2><p>在windows中，密码Hash被称之为NTLM(NT LAN Manager) Hash</p><p>这个NTLM是一种网络认证协议，与NTLM Hash的关系是： NTLM网络认证协议是以NTLM Hash作为根凭证进行认证的协议，也就是说，NTLM与 NTLM Hash互相对应</p><p>在本地认证的过程中，就是将用户的输入的密码转换为 <code>NTLM Hash</code> 与 <code>SAM</code>中的 <code>HTLM Hash</code>进行比较</p><h2 id="HTLM-Hash的产生"><a href="#HTLM-Hash的产生" class="headerlink" title="HTLM Hash的产生"></a>HTLM Hash的产生</h2><p>操作系统会将输入的密码转换为十六进制，经过Unicode转换后，再调用MD4加密算法加密，这个结果的十六进制就是NTLM Hash</p><pre><code>密码 -&gt; hex(十六进制编码) = 十六进制数十六进制数 -&gt; Unicode = Unicode字符串Unicode字符串 -&gt; MD4 = MD4加密值MD4加密值 -&gt; hex = HTLM Hash</code></pre><h2 id="本地认证的流程"><a href="#本地认证的流程" class="headerlink" title="本地认证的流程"></a>本地认证的流程</h2><blockquote><p>winlogon.exe -&gt; 接受用户输入 -&gt; lsass.exe -&gt; 认证</p></blockquote><p>首先，用户注销、重启、锁屏后，操作系统会让winlogon显示登录界面，也就是输入框，接收输入后，将密码交给lsass进程，这个进程中会存一份明文密码，将明文密码加密成NTLM Hash，对SAM数据库比较认证。</p><ul><li>windows Logon Process(即 winlogon.exe),是Windows NT用户登录程序，用于管理用户登录和退出</li><li>LSASS用于微软系统的安全机制。用于本地安全和登录策略</li></ul><h2 id="LM-Hash"><a href="#LM-Hash" class="headerlink" title="LM Hash"></a>LM Hash</h2><p>在NTLM Hash问世之前，它的前身就是 LM Hash ，他们的认证机制相同，但是加密算法不同，LM Hash已经被淘汰了</p><h1 id="网络认证"><a href="#网络认证" class="headerlink" title="网络认证"></a>网络认证</h1><p>在内网渗透的过程中，经常遇到工作组环境，而工作组环境是一个逻辑 上的网络环境(工作区)，隶属于工作组的机器之间无法互相建 立一个完美的信任机制，只能点对点，是比较落后的认证方式， 没有信托机构。</p><p>假设A主机与B主机属于同一个工作组环境，A想访问B主机上的资料，需要将一个存在于B主机上的账户凭证发送至B主机，经过认证才能够访问B主机上的资源。</p><p>这是我们接触比较多的SMB共享文件的案例，SMB的默认端口是445。</p><p>早期SMB协议在网络上传输明文口令。后来出现 LAN Manager Challenge/Response 验证机制，简称LM，它是如此简单以至很容易就被破解，现在又有了NTLM以及Kerberos。</p><h2 id="NTLM协议"><a href="#NTLM协议" class="headerlink" title="NTLM协议"></a>NTLM协议</h2><p>NTML是一种网络认证协议，他是基于 挑战(Chalenge)/响应(Response)/认证机制的一种认证模式</p><h3 id="HTLM协议认证"><a href="#HTLM协议认证" class="headerlink" title="HTLM协议认证"></a>HTLM协议认证</h3><p>HTLM协议的认证过程分为三步：</p><ul><li>协商，主要用于确认双方协议版本</li><li>质询，就是挑战(Chalenge)/响应(Response)认证机制起作用的范畴</li><li>验证，验证主要是在质询完成后，验证结果，是认证的最后一步</li></ul><h3 id="质询过程"><a href="#质询过程" class="headerlink" title="质询过程"></a>质询过程</h3><ul><li>客户端项服务器发送用户的信息(用户名)请求</li><li>服务器接受到请求，生成一个16位的随机数，称之为”Challenge”，使用登录用户名对应的HTLM Hash加密 Challenge(16位随机数)，假定生成challenge1，同时，生成Chanllenge1后，将Challenge(16位随机数)发送给客户端。</li><li>客户端接收到Challenge后，使用将要登录账户对应的NTLM Hash加码Challenge生成的Response，然后将Response发送至服务器</li></ul><h3 id="认证过程解释"><a href="#认证过程解释" class="headerlink" title="认证过程解释"></a>认证过程解释</h3><ul><li><ol><li>首先用户在客户端输入username，password，domain，然后客户端会先将用户输入的password进行hash计算并保存在本地</li></ol></li><li><ol start="2"><li>客户端将username明文传输到域控机</li></ol></li><li><ol start="3"><li>然后域控会随机生成16字节的challenge挑战码，返回给客户端</li></ol></li><li><ol start="4"><li>客户端接收到challenge之后，会用之前password的hash进行加密(成为Response)，和challenge，username一起发送给服务器</li></ol></li><li><ol start="5"><li>服务端将客户端发来的信息转发给域控</li></ol></li><li><ol start="6"><li>域控在接收到服务端发来的response，challenge，username，会拿着username在自己的活动目录数据库(ntds.dit)中查询对应的password hash，并对challenage进行一次加密，如果和用户发来的response相同则身份验证成功，否则失败</li></ol></li></ul><h2 id="Kerberos域认证"><a href="#Kerberos域认证" class="headerlink" title="Kerberos域认证"></a>Kerberos域认证</h2><p>Active Directory(活动目录)概念： windows提供了企业管理资产，服务，网络对象进行组织化的管理，这非常符合企业架构的管理模式。而承载这些管理机制的就是活动目录服务。如果要搭建一个域，就需要安装活动目录服务。</p><p>活动目录服务以域名来划分域的边界，域外就不属于管理范围，也就是说，一个域对应一个域名，域之间也可以相互信任。</p><ul><li>Active Directory存储了有关网络对象的信息，并且让管理员和用户能够轻松的查找和使用这些信息。Active Directory使用一种结构化的数据存储方式，并以此为基础对目录信息进行合乎逻辑的分层组织。</li><li>网络对象分为：用户，用户组，计算机，域，组织单位以及安全策略等等</li></ul><h3 id="Active-Driectory-活动目录-功能"><a href="#Active-Driectory-活动目录-功能" class="headerlink" title="Active Driectory(活动目录)功能"></a>Active Driectory(活动目录)功能</h3><ul><li>服务器以及客户端计算机管理：管理服务器以及客户端计算机账户，所有服务器以及客户端计算机加入域管理并实施组策略</li><li>用户服务： 管理用户域账户，用户信息，企业通讯录(与电子邮件集成),用户组管理，用户身份认证，用户授权管理，按省实施组管理策略</li><li>资源管理： 管理打印机，文件共享服务等网络资源</li><li>桌面配置： 系统管理员可以集中配置各种桌面配置策略，如：用户使用域中资源权限限制，界面功能的限制，应用程序执行特征限制，网络连接限制，安全配置限制等</li><li>应用系统支撑： 支持财务，人事，电子邮件，企业信息门户，办公自动化，补丁管理，防病毒系统等各种应用系统</li></ul><p>在域中，网络对象可以互相访问，但是在真实情况中，需要对某些部门的计算机进行限制，例如：销售部门不能访问技术部门的服务器，<strong>这时候就需要使用Kerberos认证来验证网络对象间的权限</strong></p><h3 id="域认证体系-Kerberos"><a href="#域认证体系-Kerberos" class="headerlink" title="域认证体系 - Kerberos"></a>域认证体系 - Kerberos</h3><p>Kerberos 是一种网络认证协议，其设计目标是通过密钥系统为客 户机 / 服务器应用程序提供强大的认证服务。该认证过程的实现不 依赖于主机操作系统的认证，无需基于主机地址的信任，不要求 网络上所有主机的物理安全，并假定网络上传送的数据包可以被 任意地读取、修改和插入数据。在以上情况下， Kerberos 作为一 种可信任的第三方认证服务，是通过传统的密码技术(如:共享 密钥)执行认证服务的。</p><h3 id="域认证参与的角色"><a href="#域认证参与的角色" class="headerlink" title="域认证参与的角色"></a>域认证参与的角色</h3><ul><li>Client</li><li>Server</li><li>KDC(Key Distribution Center) = DC(Domain Controller)</li></ul><p>kerberos认证协议的基础概念：</p><ul><li>票据(Ticket)：是网络对象互相访问的凭证</li><li>TGT(Ticket Granting Ticket)： 入场券，通过入场券能够获得票据，是一种临时凭证的存在</li></ul><p>KDC负责管理票据，认证票据，分发票据，但是KDC不是一个独立的服务，由一下的服务组成：</p><ul><li>Authentication Service ： 为client生成 TGT 的服务</li><li>Ticket Granting Service ： 为client生成某个服务的 ticket</li></ul><p>另外还需要一个类似于本机的SAM的数据库： AD(account database)，存储所有client的白名单，只有存在于白名单的client才能顺利申请到 TGT。</p><p>从物理层面上看：AD和KDC均为域控制器（Domain Controller）</p><h3 id="域认证的简单流程"><a href="#域认证的简单流程" class="headerlink" title="域认证的简单流程"></a>域认证的简单流程</h3><ul><li>client项kerberos服务请求，请求获取访问server的权限，kerberos得到这个消息，首先判断client是否是可信赖的，也就是白名单黑名单的说法。这就是AS服务器完成的工作，通过在AD中存储黑名单和白名单来区分client。成功后，AS返回 TGT 给client</li><li>client得到TGT后，继续向kerberos请求，希望获取访问server的权限。kerberos又得到这个消息，这时候通过client消息中的TGT，判断出client拥有这个权限，给client访问server的权限的ticket</li><li>client得到ticket后，终于可以成功访问server。这个ticket只是针对这个server，其他server需要向TGS申请</li></ul><h3 id="域认证"><a href="#域认证" class="headerlink" title="域认证"></a>域认证</h3><h4 id="Session-key-与-Ticket-Granting-Ticket"><a href="#Session-key-与-Ticket-Granting-Ticket" class="headerlink" title="Session key 与 Ticket Granting Ticket"></a>Session key 与 Ticket Granting Ticket</h4><p>首先，客户端需要发送自己的身份信息到KDC，身份信息中包含有用户名，KDC根据用户名在AD中寻找是否在白名单中，然后根据用户名提取到对应的HTLM Hash</p><p>KDC此时生成一个随机的字符串，叫做 Session Key，使用用户名对应的 NTLM Hash加密 Session Key，作为AS数据，使用KDC中某个用户(krbtgt)的HTML Hash 加密Session Key和客户端信息，生成TGT</p><ul><li>Session Key 用于客户端向TGS服务通信</li><li>域内所有网络对象的凭证都在AD中保存</li></ul><h4 id="Session-Key-与-Ticket"><a href="#Session-Key-与-Ticket" class="headerlink" title="Session Key 与 Ticket"></a>Session Key 与 Ticket</h4><p>第二步客户端需要根据TGT与第一步中使用自己NTLM Hash 解密出来的Session Key加密的客户端信息和时间戳。</p><p>KDC接到TGT与其他的内容后，会首先解密TGT，只有KDC可以解密TGT，从TGT中提取到Session Key，再使用Session Key解密其他内容，解密出来的内容同TGT中的信息进行校验来确认客户端是否受信。</p><p>通过验证后，会生成一个新的Session Key，我们称之为Server Session Key ，这个Server Session Key主要用于和服务器进行通信，同时还会生成一个Ticket，也就是最后的票据了</p><pre><code>Ticket = Server Hash( # 这个hash是在AD中服务器计算机的NTLM Hash    Server Session Key    client info:Domain name/client    Ent Time)</code></pre><h4 id="Server-Session-Key-与-Ticket"><a href="#Server-Session-Key-与-Ticket" class="headerlink" title="Server Session Key 与 Ticket"></a>Server Session Key 与 Ticket</h4><p>在第三步中，客户端向服务端请求，需要提供Ticket，Server Session Key加密的客户端信息和时间戳。</p><ul><li>Ticket 客户端无法解密</li><li>服务器端通过解密Ticket解密Server Session Key</li><li>比较时间时长</li></ul><p>校验通过之后，认证成功，这个票据会一直存在于客户端内存中</p><h3 id="白银票据（Silver-Tickets）"><a href="#白银票据（Silver-Tickets）" class="headerlink" title="白银票据（Silver Tickets）"></a>白银票据（Silver Tickets）</h3><ul><li>不需要与KDC进行交互</li><li>需要目标服务器的HTLM Hash</li></ul><p>Server Session Key在未发送Ticket之前，服务器是不知道Server Session Key是什么，所以，一切都远自于Server Hash</p><p>而我们在第三步中可以从Ticket中发现有Server Hash，也就是说，我们可以伪造一个不经过KDC认证的Ticket</p><h3 id="伪造白银票据（Silver-Tickets）"><a href="#伪造白银票据（Silver-Tickets）" class="headerlink" title="伪造白银票据（Silver Tickets）"></a>伪造白银票据（Silver Tickets）</h3><p>首先需要导出 Server Hash：</p><pre><code>C;\files&gt;mimikatz.exe &quot;privilege::debug&quot; &quot;sekurlsa::logonpasswords&quot; &quot;exit&quot; &gt; log.txt</code></pre><p>伪造票据</p><pre><code>mimikatz &quot;kerberos::golden /domain:&lt;域名&gt; /sid:&lt;域 SID&gt; /target:&lt;目标服务器主机名&gt; /service:&lt;服务类性&gt; /rc4:&lt;NTLM Hash&gt; /user:&lt;用户名&gt; /ptt&quot; exit</code></pre><h3 id="黄金票据伪造"><a href="#黄金票据伪造" class="headerlink" title="黄金票据伪造"></a>黄金票据伪造</h3><p>不懂啊！！！！！</p><blockquote><p><a href="https://www.secpulse.com/archives/94848.html#goComment" target="_blank" rel="noopener">https://www.secpulse.com/archives/94848.html#goComment</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+          <category> 知识点 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+            <tag> windows </tag>
+            
+            <tag> 认证机制 </tag>
+            
+            <tag> 知识点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>应急响应-手工排查</title>
       <link href="/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/2019/07/28/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94-%E6%89%8B%E5%B7%A5%E6%8E%92%E6%9F%A5.html"/>
       <url>/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/2019/07/28/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94-%E6%89%8B%E5%B7%A5%E6%8E%92%E6%9F%A5.html</url>
@@ -36,15 +100,15 @@
     
     <entry>
       <title>使用hexo搭建个人blog</title>
-      <link href="/other/hexo/2019/07/28/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html"/>
-      <url>/other/hexo/2019/07/28/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html</url>
+      <link href="/%E6%97%A5%E5%B8%B8/hexo/2019/07/28/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html"/>
+      <url>/%E6%97%A5%E5%B8%B8/hexo/2019/07/28/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog.html</url>
       
         <content type="html"><![CDATA[<blockquote><p>这里讲述了一个小白折腾hexo的坎坷经历</p></blockquote><a id="more"></a><h1 id="hexo环境搭建到放弃"><a href="#hexo环境搭建到放弃" class="headerlink" title="hexo环境搭建到放弃"></a>hexo环境搭建到放弃</h1><p>因为工作和生活的需要，我使用的是<code>arch linux</code>系列中的<code>manjaro</code>操作系统，本以为搭建hexo环境会很简单，但是现实给了我一耳光(后来的事实证明是因为我菜，manjaro安装hexo的确简单，但是也有坑)，我曾经一度放弃hexo就是因为我连环境搭建的关卡都过不去</p><h2 id="nodejs安装"><a href="#nodejs安装" class="headerlink" title="nodejs安装"></a>nodejs安装</h2><p>网上基本都会告诉你，安装hexo需要nodejs环境，但是nodejs环境怎么搭建？</p><p>windows:</p><pre><code>直接下载安装包安装，同样如果可以建议使用nvm安装</code></pre><p>linux:</p><pre><code>建议使用nvm安装nvm:nodejs环境管理工具，相当于python的pyenv</code></pre><p>在照着网上的各种一家抄的博客折腾一遍之后，我才反映过来，我用的是<code>manjaro</code>啊，我为啥不<code>yay</code>一手呢？</p><p>事实证明，<code>manjaro</code>的<code>yay</code>很强大，安装nvm是吧？</p><pre><code>yay -s nvm</code></pre><p>换一种，安装hexo是吧？</p><pre><code>yay -s hexo</code></pre><p>生活就是如此轻松简单。</p><p>当然，这里推荐的是使用nvm，这对于后面的多pc同步有好处</p><p>使用nvm安装指定版本的node</p><pre><code>nvm install 11 # 具体更多的nvm操作请参考官方文档</code></pre><h2 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h2><p>node环境搭建完毕后，剩下的就简单多了</p><p>使用<code>npm</code>安装<code>hexo</code>在所有的平台都是一样的</p><pre><code>npm install -g hexo-cli # 网上说可能会因为权限问题安装失败npm install hexo-server --save# 网上的指示还有一些别的插件，但是我没单独装过所以不知道有啥用# 至于我为什么没有单独装，因为我是用的下面的命令npm install hexo# 反正这样安装正常的功能都能用</code></pre><h2 id="hexo使用"><a href="#hexo使用" class="headerlink" title="hexo使用"></a>hexo使用</h2><h3 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h3><pre><code># 首先你需要cd进入到blog文件夹hexo init # hexo会在目标文件夹建立网站所需要的所有文件hexo install # 安装依赖包</code></pre><h3 id="本地启动服务"><a href="#本地启动服务" class="headerlink" title="本地启动服务"></a>本地启动服务</h3><pre><code># 我们会对自己的各种配置文件，模板文件进行修改，这时候hexo启动一个本地服务就可以很方便进行调试hexo g # 等同于hexo generate，生成静态文件hexo s # 等同于hexo server，在本地服务器运行# 打开浏览器访问 http://localhost:4000/ 就看以看见自己的blog了</code></pre><h3 id="新建文章与页面"><a href="#新建文章与页面" class="headerlink" title="新建文章与页面"></a>新建文章与页面</h3><pre><code>hexo new &quot;title&quot; # 在 ./source/_posts/title.md 生成新的文章文件hexo new page &quot;title&quot; # 生成新的页面，比如生成一个about页面</code></pre><p>生成的文章或者页面的模板放在 <code>./scaffolds/</code> 文件夹当中，文章对应的是<code>post.md</code>,页面对应的是<code>page.md</code>,草稿对应的是<code>draft.md</code></p><h3 id="编辑文章"><a href="#编辑文章" class="headerlink" title="编辑文章"></a>编辑文章</h3><p>打开新建的文章<code>./source/_posts/title.md</code></p><pre><code>---title: 标题date: 文章自动生成的时间categories: 文章的分类目录，多个可以使用 `无序列表`tages: 文章的标签---# 这里开始输入你的正文，会在首页中显示出来&lt;!--more--&gt;# moren 这里也是正文，这里的正文是在首页不会显示的，只有点击“阅读全文”才能看见</code></pre><h3 id="hexo的命令总结"><a href="#hexo的命令总结" class="headerlink" title="hexo的命令总结"></a>hexo的命令总结</h3><pre><code>hexo init [folder] # 初始化文件夹为hexo目录hexo new [layout] &lt;title&gt; # 新建一篇文章. 如果没有设置 layout 的话, 默认使用 _config.yml 中的 default_layout 参数代替. 如果标题包含空格的话, 请使用引号括起来hexo version # 查看版本hexo clean # 清除缓存文件(db.json)和已经生成的静态文件(public)hexo g # 生成静态文件(一般每次发布都会先清理一遍然后重新发布)hexo s # 启动本地服务器，本地预览hexo d # 部署到指定服务器</code></pre><h1 id="Hexo的美化-插件功能"><a href="#Hexo的美化-插件功能" class="headerlink" title="Hexo的美化+插件功能"></a>Hexo的美化+插件功能</h1><p>此处暂且略过，慢慢添加</p><h1 id="Hexo多PC同步"><a href="#Hexo多PC同步" class="headerlink" title="Hexo多PC同步"></a>Hexo多PC同步</h1><p>无非是把hexo的源文件上传到github同步而已，只不过中间有些需要注意的地方</p><h2 id="gitignore忽略"><a href="#gitignore忽略" class="headerlink" title=".gitignore忽略"></a>.gitignore忽略</h2><p>编辑<code>.gitignore</code>文件，声明不被<code>git</code>记录的文件，建议忽略的内容如下</p><pre><code>.DS_Store      Thumbs.db      db.json      *.log      node_modules/      public/      .deploy*/</code></pre><p><code>public</code>内的文件可以根据<code>source</code>文件夹内容自动生成，, 不需要备份. 其他日志、压缩、数据库等文件也都是调试等使用, 也不需要备份.</p><h2 id="git操作"><a href="#git操作" class="headerlink" title="git操作"></a>git操作</h2><p>初始化仓库</p><pre><code>git initgit remote add origin &lt;server&gt;</code></pre><p>同步</p><pre><code>git add .git commit -m &quot;&quot;git push -u origin master</code></pre><h2 id="nvm"><a href="#nvm" class="headerlink" title="nvm"></a>nvm</h2><p>这里就是有可能坑的地方，如果你的node版本不同的化，可能有的插件不能使用，所以建议使用nvm下载相同版本的node使用hexo</p>]]></content>
       
       
       <categories>
           
-          <category> other </category>
+          <category> 日常 </category>
           
           <category> hexo </category>
           
@@ -53,11 +117,11 @@
       
         <tags>
             
+            <tag> 日常 </tag>
+            
             <tag> hexo </tag>
             
             <tag> nodejs </tag>
-            
-            <tag> other </tag>
             
         </tags>
       
